@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['iserial',['ISerial',['../class_i_serial.html',1,'']]],
-  ['ita2string',['ITA2String',['../class_i_t_a2_string.html',1,'']]]
+  ['fsk4client_372',['FSK4Client',['../class_f_s_k4_client.html',1,'']]]
 ];
