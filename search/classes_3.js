@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['fsk4client_372',['FSK4Client',['../class_f_s_k4_client.html',1,'']]]
+  ['datarate_5ft_0',['DataRate_t',['../union_data_rate__t.html',1,'']]]
 ];
