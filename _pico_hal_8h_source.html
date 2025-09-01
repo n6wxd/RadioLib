@@ -169,7 +169,7 @@ $(document).ready(function(){initNavTree('_pico_hal_8h_source.html',''); initRes
 <div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>      <span class="keywordflow">return</span>;</div>
 <div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>    }</div>
 <div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span> </div>
-<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>    gpio_set_irq_enabled_with_callback(interruptNum, GPIO_IRQ_EDGE_RISE | GPIO_IRQ_EDGE_FALL, <span class="keyword">true</span>, (gpio_irq_callback_t)interruptCb);</div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>    gpio_set_irq_enabled_with_callback(interruptNum, mode, <span class="keyword">true</span>, (gpio_irq_callback_t)interruptCb);</div>
 <div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>  }</div>
 <div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span> </div>
 <div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>  <span class="keywordtype">void</span> <a class="code hl_function" href="class_radio_lib_hal.html#a2ddf72a41b3cfbb63ea7ab5362003b56">detachInterrupt</a>(uint32_t interruptNum)<span class="keyword"> override </span>{</div>
