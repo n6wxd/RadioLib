@@ -124,12 +124,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ac714448cb245ec57fa6f2395f1c8a1f7" id="r_ac714448cb245ec57fa6f2395f1c8a1f7"><td class="memItemLeft" align="right" valign="top">int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_x1273.html#ac714448cb245ec57fa6f2395f1c8a1f7">setSpreadingFactor</a> (uint8_t sf) override</td></tr>
 <tr class="memdesc:ac714448cb245ec57fa6f2395f1c8a1f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets LoRa link spreading factor. Allowed values range from 6 to 9. Only available in LoRa mode.  <br /></td></tr>
 <tr class="separator:ac714448cb245ec57fa6f2395f1c8a1f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acaffc772f70e7db371cbe736dc4a19ab" id="r_acaffc772f70e7db371cbe736dc4a19ab"><td class="memItemLeft" align="right" valign="top">int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_x1273.html#acaffc772f70e7db371cbe736dc4a19ab">setDataRate</a> (<a class="el" href="union_data_rate__t.html">DataRate_t</a> dr) override</td></tr>
-<tr class="memdesc:acaffc772f70e7db371cbe736dc4a19ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set data.  <br /></td></tr>
-<tr class="separator:acaffc772f70e7db371cbe736dc4a19ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5eae1e82596f3a6c4c926c381c2737a7" id="r_a5eae1e82596f3a6c4c926c381c2737a7"><td class="memItemLeft" align="right" valign="top">int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_x1273.html#a5eae1e82596f3a6c4c926c381c2737a7">checkDataRate</a> (<a class="el" href="union_data_rate__t.html">DataRate_t</a> dr) override</td></tr>
-<tr class="memdesc:a5eae1e82596f3a6c4c926c381c2737a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check the data rate can be configured by this module.  <br /></td></tr>
-<tr class="separator:a5eae1e82596f3a6c4c926c381c2737a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa57e8d3a8f44fb9ea0e09b0efb3d7bbe" id="r_aa57e8d3a8f44fb9ea0e09b0efb3d7bbe"><td class="memItemLeft" align="right" valign="top">int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_x1273.html#aa57e8d3a8f44fb9ea0e09b0efb3d7bbe">setDataRate</a> (<a class="el" href="union_data_rate__t.html">DataRate_t</a> dr, ModemType_t modem=RADIOLIB_MODEM_NONE) override</td></tr>
+<tr class="memdesc:aa57e8d3a8f44fb9ea0e09b0efb3d7bbe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set data rate.  <br /></td></tr>
+<tr class="separator:aa57e8d3a8f44fb9ea0e09b0efb3d7bbe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc89cbc690db05c85b0266ad58bddaab" id="r_adc89cbc690db05c85b0266ad58bddaab"><td class="memItemLeft" align="right" valign="top">int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_x1273.html#adc89cbc690db05c85b0266ad58bddaab">checkDataRate</a> (<a class="el" href="union_data_rate__t.html">DataRate_t</a> dr, ModemType_t modem=RADIOLIB_MODEM_NONE) override</td></tr>
+<tr class="memdesc:adc89cbc690db05c85b0266ad58bddaab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check the data rate can be configured by this module.  <br /></td></tr>
+<tr class="separator:adc89cbc690db05c85b0266ad58bddaab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af9f0969764fde3e12b6b05409718fa83" id="r_af9f0969764fde3e12b6b05409718fa83"><td class="memItemLeft" align="right" valign="top">int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_x1273.html#af9f0969764fde3e12b6b05409718fa83">setModem</a> (ModemType_t modem) override</td></tr>
 <tr class="memdesc:af9f0969764fde3e12b6b05409718fa83"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set modem for the radio to use. Will perform full reset and reconfigure the radio using its default parameters.  <br /></td></tr>
 <tr class="separator:af9f0969764fde3e12b6b05409718fa83"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -150,7 +150,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a0cc8eeb00241031796fc73b08711469b inherit pub_methods_class_s_x1272"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets LoRa link bandwidth. Allowed values are 125, 250 and 500 kHz. Only available in LoRa mode.  <br /></td></tr>
 <tr class="separator:a0cc8eeb00241031796fc73b08711469b inherit pub_methods_class_s_x1272"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a960913438feccad4c1913a9222384a5f inherit pub_methods_class_s_x1272" id="r_a960913438feccad4c1913a9222384a5f"><td class="memItemLeft" align="right" valign="top">int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_x1272.html#a960913438feccad4c1913a9222384a5f">setCodingRate</a> (uint8_t cr)</td></tr>
-<tr class="memdesc:a960913438feccad4c1913a9222384a5f inherit pub_methods_class_s_x1272"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets LoRa link coding rate denominator. Allowed values range from 5 to 8. Only available in LoRa mode.  <br /></td></tr>
+<tr class="memdesc:a960913438feccad4c1913a9222384a5f inherit pub_methods_class_s_x1272"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets LoRa link coding rate denominator. Allowed values range from 4 to 8. Only available in LoRa mode. Note that a value of 4 means no coding, is undocumented and not recommended without your own FEC.  <br /></td></tr>
 <tr class="separator:a960913438feccad4c1913a9222384a5f inherit pub_methods_class_s_x1272"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab5c9a79d72996c3d793cee812b0aded5 inherit pub_methods_class_s_x1272" id="r_ab5c9a79d72996c3d793cee812b0aded5"><td class="memItemLeft" align="right" valign="top">int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_x1272.html#ab5c9a79d72996c3d793cee812b0aded5">setBitRate</a> (float br) override</td></tr>
 <tr class="memdesc:ab5c9a79d72996c3d793cee812b0aded5 inherit pub_methods_class_s_x1272"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets FSK bit rate. Allowed values range from 0.5 to 300 kbps. Only available in FSK mode.  <br /></td></tr>
@@ -210,9 +210,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a75cb0d8810a5ce025d3bf5b51ca263d6 inherit pub_methods_class_s_x127x" id="r_a75cb0d8810a5ce025d3bf5b51ca263d6"><td class="memItemLeft" align="right" valign="top">int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_x127x.html#a75cb0d8810a5ce025d3bf5b51ca263d6">transmit</a> (const uint8_t *data, size_t len, uint8_t addr=0) override</td></tr>
 <tr class="memdesc:a75cb0d8810a5ce025d3bf5b51ca263d6 inherit pub_methods_class_s_x127x"><td class="mdescLeft">&#160;</td><td class="mdescRight">Binary transmit method. Will transmit arbitrary binary data up to 255 bytes long using LoRa or up to 63 bytes using FSK modem. For overloads to transmit Arduino String or C-string, see <a class="el" href="class_physical_layer.html#a492b2d057dd803c3884fa1adc8e22534" title="C-string transmit method.">PhysicalLayer::transmit</a>.  <br /></td></tr>
 <tr class="separator:a75cb0d8810a5ce025d3bf5b51ca263d6 inherit pub_methods_class_s_x127x"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adfe0d3f033a23ec2f3c2a407285d357c inherit pub_methods_class_s_x127x" id="r_adfe0d3f033a23ec2f3c2a407285d357c"><td class="memItemLeft" align="right" valign="top">int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_x127x.html#adfe0d3f033a23ec2f3c2a407285d357c">receive</a> (uint8_t *data, size_t len) override</td></tr>
-<tr class="memdesc:adfe0d3f033a23ec2f3c2a407285d357c inherit pub_methods_class_s_x127x"><td class="mdescLeft">&#160;</td><td class="mdescRight">Binary receive method. Will attempt to receive arbitrary binary data up to 255 bytes long using LoRa or up to 63 bytes using FSK modem. For overloads to receive Arduino String, see <a class="el" href="class_physical_layer.html#ab82617fa3fa9f21d4cd427314ecc4af8" title="Binary receive method. Must be implemented in module class.">PhysicalLayer::receive</a>.  <br /></td></tr>
-<tr class="separator:adfe0d3f033a23ec2f3c2a407285d357c inherit pub_methods_class_s_x127x"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a53d6b2d3cb8ce3ebb50adb35430dfd3c inherit pub_methods_class_s_x127x" id="r_a53d6b2d3cb8ce3ebb50adb35430dfd3c"><td class="memItemLeft" align="right" valign="top">int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_x127x.html#a53d6b2d3cb8ce3ebb50adb35430dfd3c">receive</a> (uint8_t *data, size_t len, <a class="el" href="group__typedefs.html#ga210f31dd2bff7fb80563275648a5bbbd">RadioLibTime_t</a> timeout=0) override</td></tr>
+<tr class="memdesc:a53d6b2d3cb8ce3ebb50adb35430dfd3c inherit pub_methods_class_s_x127x"><td class="mdescLeft">&#160;</td><td class="mdescRight">Binary receive method. Will attempt to receive arbitrary binary data up to 255 bytes long using LoRa or up to 63 bytes using FSK modem. For overloads to receive Arduino String, see <a class="el" href="class_physical_layer.html#ae608fabef91defa1e33e6a6787c68ce8" title="Binary receive method. Must be implemented in module class.">PhysicalLayer::receive</a>.  <br /></td></tr>
+<tr class="separator:a53d6b2d3cb8ce3ebb50adb35430dfd3c inherit pub_methods_class_s_x127x"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a13ae97e18744dc617bc9326cfbaad3a3 inherit pub_methods_class_s_x127x" id="r_a13ae97e18744dc617bc9326cfbaad3a3"><td class="memItemLeft" align="right" valign="top">int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_x127x.html#a13ae97e18744dc617bc9326cfbaad3a3">scanChannel</a> () override</td></tr>
 <tr class="memdesc:a13ae97e18744dc617bc9326cfbaad3a3 inherit pub_methods_class_s_x127x"><td class="mdescLeft">&#160;</td><td class="mdescRight">Performs scan for valid LoRa preamble in the current channel.  <br /></td></tr>
 <tr class="separator:a13ae97e18744dc617bc9326cfbaad3a3 inherit pub_methods_class_s_x127x"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -298,6 +298,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>clearFifoFullAction</
 <tr class="memitem:abfc840e8d6fe5e222f0143be17876745 inherit pub_methods_class_s_x127x" id="r_abfc840e8d6fe5e222f0143be17876745"><td class="memItemLeft" align="right" valign="top">int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_x127x.html#abfc840e8d6fe5e222f0143be17876745">readData</a> (uint8_t *data, size_t len) override</td></tr>
 <tr class="memdesc:abfc840e8d6fe5e222f0143be17876745 inherit pub_methods_class_s_x127x"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reads data that was received after calling startReceive method. When the packet length is not known in advance, getPacketLength method must be called BEFORE calling readData!  <br /></td></tr>
 <tr class="separator:abfc840e8d6fe5e222f0143be17876745 inherit pub_methods_class_s_x127x"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acaec05c056dacb2c2171eaa8521be4bb inherit pub_methods_class_s_x127x" id="r_acaec05c056dacb2c2171eaa8521be4bb"><td class="memItemLeft" align="right" valign="top">int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_x127x.html#acaec05c056dacb2c2171eaa8521be4bb">finishReceive</a> () override</td></tr>
+<tr class="memdesc:acaec05c056dacb2c2171eaa8521be4bb inherit pub_methods_class_s_x127x"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clean up after reception is done.  <br /></td></tr>
+<tr class="separator:acaec05c056dacb2c2171eaa8521be4bb inherit pub_methods_class_s_x127x"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6fa5723724393576ed597509200e17d1 inherit pub_methods_class_s_x127x" id="r_a6fa5723724393576ed597509200e17d1"><td class="memItemLeft" align="right" valign="top">int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_x127x.html#a6fa5723724393576ed597509200e17d1">startChannelScan</a> () override</td></tr>
 <tr class="memdesc:a6fa5723724393576ed597509200e17d1 inherit pub_methods_class_s_x127x"><td class="mdescLeft">&#160;</td><td class="mdescRight">Interrupt-driven channel activity detection method. DIO0 will be activated when LoRa preamble is detected. DIO1 will be activated if there's no preamble detected before timeout.  <br /></td></tr>
 <tr class="separator:a6fa5723724393576ed597509200e17d1 inherit pub_methods_class_s_x127x"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -379,18 +382,24 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>clearFifoFullAction</
 <tr class="memitem:a462fa74275e67c296328a01f361892d5 inherit pub_methods_class_s_x127x" id="r_a462fa74275e67c296328a01f361892d5"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_x127x.html#a462fa74275e67c296328a01f361892d5">getPacketLength</a> (bool update=true) override</td></tr>
 <tr class="memdesc:a462fa74275e67c296328a01f361892d5 inherit pub_methods_class_s_x127x"><td class="mdescLeft">&#160;</td><td class="mdescRight">Query modem for the packet length of received payload.  <br /></td></tr>
 <tr class="separator:a462fa74275e67c296328a01f361892d5 inherit pub_methods_class_s_x127x"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a46011b39460e27227a99cc93fdd1484b inherit pub_methods_class_s_x127x" id="r_a46011b39460e27227a99cc93fdd1484b"><td class="memItemLeft" align="right" valign="top">int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_x127x.html#a46011b39460e27227a99cc93fdd1484b">getLoRaRxHeaderInfo</a> (uint8_t *cr, bool *hasCRC)</td></tr>
+<tr class="memdesc:a46011b39460e27227a99cc93fdd1484b inherit pub_methods_class_s_x127x"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get LoRa header information from last received packet. Only valid in explicit header mode.  <br /></td></tr>
+<tr class="separator:a46011b39460e27227a99cc93fdd1484b inherit pub_methods_class_s_x127x"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6fb42d9cd518e9f6408a40753c0be359 inherit pub_methods_class_s_x127x" id="r_a6fb42d9cd518e9f6408a40753c0be359"><td class="memItemLeft" align="right" valign="top">int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_x127x.html#a6fb42d9cd518e9f6408a40753c0be359">fixedPacketLengthMode</a> (uint8_t len=RADIOLIB_SX127X_MAX_PACKET_LENGTH_FSK)</td></tr>
 <tr class="memdesc:a6fb42d9cd518e9f6408a40753c0be359 inherit pub_methods_class_s_x127x"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set modem in fixed packet length mode. Available in FSK mode only.  <br /></td></tr>
 <tr class="separator:a6fb42d9cd518e9f6408a40753c0be359 inherit pub_methods_class_s_x127x"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1d39296b40e7282ef44d8f376065e92c inherit pub_methods_class_s_x127x" id="r_a1d39296b40e7282ef44d8f376065e92c"><td class="memItemLeft" align="right" valign="top">int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_x127x.html#a1d39296b40e7282ef44d8f376065e92c">variablePacketLengthMode</a> (uint8_t maxLen=RADIOLIB_SX127X_MAX_PACKET_LENGTH_FSK)</td></tr>
 <tr class="memdesc:a1d39296b40e7282ef44d8f376065e92c inherit pub_methods_class_s_x127x"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set modem in variable packet length mode. Available in FSK mode only.  <br /></td></tr>
 <tr class="separator:a1d39296b40e7282ef44d8f376065e92c inherit pub_methods_class_s_x127x"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abcc10ab36404aaaee3fe7a1be6841511 inherit pub_methods_class_s_x127x" id="r_abcc10ab36404aaaee3fe7a1be6841511"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_x127x.html#abcc10ab36404aaaee3fe7a1be6841511">getNumSymbols</a> (size_t len)</td></tr>
-<tr class="memdesc:abcc10ab36404aaaee3fe7a1be6841511 inherit pub_methods_class_s_x127x"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert from bytes to LoRa symbols.  <br /></td></tr>
-<tr class="separator:abcc10ab36404aaaee3fe7a1be6841511 inherit pub_methods_class_s_x127x"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a655ce24df39a164498977b0f532752f6 inherit pub_methods_class_s_x127x" id="r_a655ce24df39a164498977b0f532752f6"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_x127x.html#a655ce24df39a164498977b0f532752f6">getNumSymbols</a> (size_t len, <a class="el" href="union_data_rate__t.html">DataRate_t</a> dr, <a class="el" href="union_packet_config__t.html">PacketConfig_t</a> pc)</td></tr>
+<tr class="memdesc:a655ce24df39a164498977b0f532752f6 inherit pub_methods_class_s_x127x"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert from bytes to LoRa symbols.  <br /></td></tr>
+<tr class="separator:a655ce24df39a164498977b0f532752f6 inherit pub_methods_class_s_x127x"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9e7ecbc92c9d70f93211d21399d237d0 inherit pub_methods_class_s_x127x" id="r_a9e7ecbc92c9d70f93211d21399d237d0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__typedefs.html#ga210f31dd2bff7fb80563275648a5bbbd">RadioLibTime_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_x127x.html#a9e7ecbc92c9d70f93211d21399d237d0">getTimeOnAir</a> (size_t len) override</td></tr>
 <tr class="memdesc:a9e7ecbc92c9d70f93211d21399d237d0 inherit pub_methods_class_s_x127x"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get expected time-on-air for a given size of payload.  <br /></td></tr>
 <tr class="separator:a9e7ecbc92c9d70f93211d21399d237d0 inherit pub_methods_class_s_x127x"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a99cb7d326f6d7effb6301d730a24def1 inherit pub_methods_class_s_x127x" id="r_a99cb7d326f6d7effb6301d730a24def1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__typedefs.html#ga210f31dd2bff7fb80563275648a5bbbd">RadioLibTime_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_x127x.html#a99cb7d326f6d7effb6301d730a24def1">calculateTimeOnAir</a> (ModemType_t modem, <a class="el" href="union_data_rate__t.html">DataRate_t</a> dr, <a class="el" href="union_packet_config__t.html">PacketConfig_t</a> pc, size_t len) override</td></tr>
+<tr class="memdesc:a99cb7d326f6d7effb6301d730a24def1 inherit pub_methods_class_s_x127x"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate the expected time-on-air for a given modem, data rate, packet configuration and payload size.  <br /></td></tr>
+<tr class="separator:a99cb7d326f6d7effb6301d730a24def1 inherit pub_methods_class_s_x127x"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adbc4021380dc557114625dc51262cf90 inherit pub_methods_class_s_x127x" id="r_adbc4021380dc557114625dc51262cf90"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__typedefs.html#ga210f31dd2bff7fb80563275648a5bbbd">RadioLibTime_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_x127x.html#adbc4021380dc557114625dc51262cf90">calculateRxTimeout</a> (<a class="el" href="group__typedefs.html#ga210f31dd2bff7fb80563275648a5bbbd">RadioLibTime_t</a> timeoutUs) override</td></tr>
 <tr class="memdesc:adbc4021380dc557114625dc51262cf90 inherit pub_methods_class_s_x127x"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate the timeout value for this specific module / series (in number of symbols or units of time)  <br /></td></tr>
 <tr class="separator:adbc4021380dc557114625dc51262cf90 inherit pub_methods_class_s_x127x"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -482,9 +491,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>clearFHSSInt</b> (voi
 <tr class="memitem:ada508497ee2e70170da3afe078e2fe0e inherit pub_methods_class_s_x127x" id="r_ada508497ee2e70170da3afe078e2fe0e"><td class="memItemLeft" align="right" valign="top">virtual int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_x127x.html#ada508497ee2e70170da3afe078e2fe0e">transmit</a> (const uint8_t *data, size_t len, uint8_t addr=0)</td></tr>
 <tr class="memdesc:ada508497ee2e70170da3afe078e2fe0e inherit pub_methods_class_s_x127x"><td class="mdescLeft">&#160;</td><td class="mdescRight">Binary transmit method. Must be implemented in module class.  <br /></td></tr>
 <tr class="separator:ada508497ee2e70170da3afe078e2fe0e inherit pub_methods_class_s_x127x"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab82617fa3fa9f21d4cd427314ecc4af8 inherit pub_methods_class_s_x127x" id="r_ab82617fa3fa9f21d4cd427314ecc4af8"><td class="memItemLeft" align="right" valign="top">virtual int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_x127x.html#ab82617fa3fa9f21d4cd427314ecc4af8">receive</a> (uint8_t *data, size_t len)</td></tr>
-<tr class="memdesc:ab82617fa3fa9f21d4cd427314ecc4af8 inherit pub_methods_class_s_x127x"><td class="mdescLeft">&#160;</td><td class="mdescRight">Binary receive method. Must be implemented in module class.  <br /></td></tr>
-<tr class="separator:ab82617fa3fa9f21d4cd427314ecc4af8 inherit pub_methods_class_s_x127x"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae608fabef91defa1e33e6a6787c68ce8 inherit pub_methods_class_s_x127x" id="r_ae608fabef91defa1e33e6a6787c68ce8"><td class="memItemLeft" align="right" valign="top">virtual int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_x127x.html#ae608fabef91defa1e33e6a6787c68ce8">receive</a> (uint8_t *data, size_t len, <a class="el" href="group__typedefs.html#ga210f31dd2bff7fb80563275648a5bbbd">RadioLibTime_t</a> timeout=0)</td></tr>
+<tr class="memdesc:ae608fabef91defa1e33e6a6787c68ce8 inherit pub_methods_class_s_x127x"><td class="mdescLeft">&#160;</td><td class="mdescRight">Binary receive method. Must be implemented in module class.  <br /></td></tr>
+<tr class="separator:ae608fabef91defa1e33e6a6787c68ce8 inherit pub_methods_class_s_x127x"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a923654706eff5118ef6e84214e837f27 inherit pub_methods_class_s_x127x" id="r_a923654706eff5118ef6e84214e837f27"><td class="memItemLeft" align="right" valign="top">int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_x127x.html#a923654706eff5118ef6e84214e837f27">startTransmit</a> (const char *str, uint8_t addr=0)</td></tr>
 <tr class="memdesc:a923654706eff5118ef6e84214e837f27 inherit pub_methods_class_s_x127x"><td class="mdescLeft">&#160;</td><td class="mdescRight">Interrupt-driven Arduino String transmit method. Unlike the standard transmit method, this one is non-blocking. Interrupt pin will be activated when transmission finishes.  <br /></td></tr>
 <tr class="separator:a923654706eff5118ef6e84214e837f27 inherit pub_methods_class_s_x127x"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -674,7 +683,7 @@ size_t&#160;</td><td class="memItemRight" valign="bottom"><b>maxPacketLength</b>
     <tr><td class="paramname">freq</td><td>Carrier frequency in MHz. Allowed values range from 860.0 MHz to 1020.0 MHz. </td></tr>
     <tr><td class="paramname">bw</td><td>LoRa link bandwidth in kHz. Allowed values are 125, 250 and 500 kHz. </td></tr>
     <tr><td class="paramname">sf</td><td>LoRa link spreading factor. Allowed values range from 6 to 9. </td></tr>
-    <tr><td class="paramname">cr</td><td>LoRa link coding rate denominator. Allowed values range from 5 to 8. </td></tr>
+    <tr><td class="paramname">cr</td><td>LoRa link coding rate denominator. Allowed values range from 4 to 8. Note that a value of 4 means no coding, is undocumented and not recommended without your own FEC. </td></tr>
     <tr><td class="paramname">syncWord</td><td>LoRa sync word. Can be used to distinguish different networks. Note that value 0x34 is reserved for LoRaWAN networks. </td></tr>
     <tr><td class="paramname">power</td><td>Transmission output power in dBm. Allowed values range from 2 to 17 dBm. </td></tr>
     <tr><td class="paramname">preambleLength</td><td>Length of LoRa transmission preamble in symbols. The actual preamble length is 4.25 symbols longer than the set number. Allowed values range from 6 to 65535. </td></tr>
@@ -688,8 +697,8 @@ size_t&#160;</td><td class="memItemRight" valign="bottom"><b>maxPacketLength</b>
 
 </div>
 </div>
-<a id="a5eae1e82596f3a6c4c926c381c2737a7" name="a5eae1e82596f3a6c4c926c381c2737a7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5eae1e82596f3a6c4c926c381c2737a7">&#9670;&#160;</a></span>checkDataRate()</h2>
+<a id="adc89cbc690db05c85b0266ad58bddaab" name="adc89cbc690db05c85b0266ad58bddaab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adc89cbc690db05c85b0266ad58bddaab">&#9670;&#160;</a></span>checkDataRate()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -701,8 +710,18 @@ size_t&#160;</td><td class="memItemRight" valign="bottom"><b>maxPacketLength</b>
           <td class="memname">int16_t SX1273::checkDataRate </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="union_data_rate__t.html">DataRate_t</a>&#160;</td>
-          <td class="paramname"><em>dr</em></td><td>)</td>
+          <td class="paramname"><em>dr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">ModemType_t&#160;</td>
+          <td class="paramname"><em>modem</em> = <code>RADIOLIB_MODEM_NONE</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -715,18 +734,19 @@ size_t&#160;</td><td class="memItemRight" valign="bottom"><b>maxPacketLength</b>
 <p>Check the data rate can be configured by this module. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">dr</td><td>Data rate struct. Interpretation depends on currently active modem (FSK or LoRa). </td></tr>
+    <tr><td class="paramname">dr</td><td>Data rate struct. </td></tr>
+    <tr><td class="paramname">modem</td><td>The modem corresponding to the requested datarate (FSK or LoRa). Defaults to currently active modem if not supplied. </td></tr>
   </table>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd><a class="el" href="group__status__codes.html">Status Codes</a> </dd></dl>
 
-<p>Reimplemented from <a class="el" href="class_s_x1272.html#a2a36487740f15731c6e508428e4b11f0">SX1272</a>.</p>
+<p>Reimplemented from <a class="el" href="class_s_x1272.html#a6486c663e0be785eaa4e0f74f2195a0b">SX1272</a>.</p>
 
 </div>
 </div>
-<a id="acaffc772f70e7db371cbe736dc4a19ab" name="acaffc772f70e7db371cbe736dc4a19ab"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acaffc772f70e7db371cbe736dc4a19ab">&#9670;&#160;</a></span>setDataRate()</h2>
+<a id="aa57e8d3a8f44fb9ea0e09b0efb3d7bbe" name="aa57e8d3a8f44fb9ea0e09b0efb3d7bbe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa57e8d3a8f44fb9ea0e09b0efb3d7bbe">&#9670;&#160;</a></span>setDataRate()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -738,8 +758,18 @@ size_t&#160;</td><td class="memItemRight" valign="bottom"><b>maxPacketLength</b>
           <td class="memname">int16_t SX1273::setDataRate </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="union_data_rate__t.html">DataRate_t</a>&#160;</td>
-          <td class="paramname"><em>dr</em></td><td>)</td>
+          <td class="paramname"><em>dr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">ModemType_t&#160;</td>
+          <td class="paramname"><em>modem</em> = <code>RADIOLIB_MODEM_NONE</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -749,16 +779,17 @@ size_t&#160;</td><td class="memItemRight" valign="bottom"><b>maxPacketLength</b>
 </table>
 </div><div class="memdoc">
 
-<p>Set data. </p>
+<p>Set data rate. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">dr</td><td>Data rate struct. Interpretation depends on currently active modem (FSK or LoRa). </td></tr>
+    <tr><td class="paramname">dr</td><td>Data rate struct. </td></tr>
+    <tr><td class="paramname">modem</td><td>The modem corresponding to the requested datarate (FSK or LoRa). Defaults to currently active modem if not supplied. </td></tr>
   </table>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd><a class="el" href="group__status__codes.html">Status Codes</a> </dd></dl>
 
-<p>Reimplemented from <a class="el" href="class_s_x1272.html#a5b79b7cd20c4c3cd1f486f777b3457d1">SX1272</a>.</p>
+<p>Reimplemented from <a class="el" href="class_s_x1272.html#a41236161da417a26793a4453864d21dc">SX1272</a>.</p>
 
 </div>
 </div>
